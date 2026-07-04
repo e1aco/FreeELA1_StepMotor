@@ -1,0 +1,11 @@
+debug/main.o
+debug/mainwindow.o
+debug/qcustomplot.o
+debug/qextserialbase.o
+debug/qextserialport.o
+debug/win_qextserialport.o
+debug/moc_mainwindow.o
+debug/moc_qcustomplot.o
+debug/moc_qextserialbase.o
+debug/moc_qextserialport.o
+debug/moc_win_qextserialport.o

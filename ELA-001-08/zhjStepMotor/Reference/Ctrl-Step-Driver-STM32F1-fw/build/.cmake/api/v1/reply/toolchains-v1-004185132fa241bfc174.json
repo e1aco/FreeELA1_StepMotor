@@ -1,0 +1,94 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include",
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include-fixed",
+						"E:/qp/qtools/mingw32/i686-w64-mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "E:/qp/qtools/mingw32/bin/gcc.exe",
+				"version" : "14.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include/c++",
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include/c++/i686-w64-mingw32",
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include/c++/backward",
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include",
+						"E:/qp/qtools/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include-fixed",
+						"E:/qp/qtools/mingw32/i686-w64-mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "E:/qp/qtools/mingw32/bin/g++.exe",
+				"version" : "14.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

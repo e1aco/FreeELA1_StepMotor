@@ -1,0 +1,5 @@
+{
+    "search.exclude": {
+        "**/StepMotorCtrl_42": true
+    }
+}

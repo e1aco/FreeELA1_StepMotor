@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F103",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc/**",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/**",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/**",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include/**",
+                "${workspaceFolder}/Drivers/CMSIS/Include/**",
+                "${workspaceFolder}/Ctrl/**",
+                "${workspaceFolder}/Ctrl/Driver/**",
+                "${workspaceFolder}/Ctrl/Motor/**",
+                "${workspaceFolder}/Ctrl/Sensor/**",
+                "${workspaceFolder}/Ctrl/Signal/**",
+                "${workspaceFolder}/UserApp/**",
+                "${workspaceFolder}/Port/**",
+                "${workspaceFolder}/Port/Platform/**",
+                "${workspaceFolder}/Port/Platform/Memory/**",
+                "${workspaceFolder}/Port/Platform/Utils/**"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "__MICROLIB",
+                "STM32F1",
+                "STM32F1xx",
+                "STM32F103xB"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-arm",
+            "compilerPath": "",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}
