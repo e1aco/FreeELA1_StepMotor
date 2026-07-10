@@ -1,0 +1,15 @@
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mb.c
+ela_stepmotor\mb.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+ela_stepmotor\mb.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\port.h
+ela_stepmotor\mb.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\assert.h
+ela_stepmotor\mb.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\inttypes.h
+ela_stepmotor\mb.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mb.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbport.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbproto.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbconfig.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbframe.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbfunc.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbrtu.h
+ela_stepmotor\mb.o: ..\FreeModbus\modbus\mbascii.h

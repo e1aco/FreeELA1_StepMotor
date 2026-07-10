@@ -1,0 +1,13 @@
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mbtcp.c
+ela_stepmotor\mbtcp.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+ela_stepmotor\mbtcp.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\port.h
+ela_stepmotor\mbtcp.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\assert.h
+ela_stepmotor\mbtcp.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\inttypes.h
+ela_stepmotor\mbtcp.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mb.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mbport.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mbproto.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mbconfig.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mbtcp.h
+ela_stepmotor\mbtcp.o: ..\FreeModbus\modbus\mbframe.h
