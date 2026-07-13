@@ -14,36 +14,36 @@ void UartQueue_Init(UART_QUEUE_T *me)
 
 /********
  * @ 输入: UART_QUEUE_T *me: 队列指针; unsigned char byte: 写入字节
- * @ 输出: unsigned char: TRUE(0) 成功, FALSE(1) 队列满
+ * @ 输出: bool: true 成功, false 队列满
  * @ 说明: 向队尾写入一个字节
  ****/
-unsigned char UartQueue_Put(UART_QUEUE_T *me, unsigned char byte)
+bool UartQueue_Put(UART_QUEUE_T *me, unsigned char byte)
 {
     if (me->count >= UART_QUEUE_SIZE)
     {
-        return FALSE;
+        return false;
     }
     me->buffer[me->head] = byte;
     me->head = (me->head + 1) % UART_QUEUE_SIZE;
     me->count++;
-    return TRUE;
+    return true;
 }
 
 /********
  * @ 输入: UART_QUEUE_T *me: 队列指针; unsigned char *byte: 读出字节
- * @ 输出: unsigned char: TRUE(0) 成功, FALSE(1) 队列空
+ * @ 输出: bool: true 成功, false 队列空
  * @ 说明: 从队头读出一个字节
  ****/
-unsigned char UartQueue_Get(UART_QUEUE_T *me, unsigned char *byte)
+bool UartQueue_Get(UART_QUEUE_T *me, unsigned char *byte)
 {
     if (0 == me->count)
     {
-        return FALSE;
+        return false;
     }
     *byte = me->buffer[me->tail];
     me->tail = (me->tail + 1) % UART_QUEUE_SIZE;
     me->count--;
-    return TRUE;
+    return true;
 }
 
 /********
@@ -101,21 +101,21 @@ unsigned short UartQueue_GetBuf(UART_QUEUE_T *me,
 }
 
 /********
- * @ 输出: unsigned char: TRUE(0) 满, FALSE(1) 未满
+ * @ 输出: bool: true 满, false 未满
  * @ 说明: 判断队列是否已满
  ****/
-unsigned char UartQueue_IsFull(UART_QUEUE_T *me)
+bool UartQueue_IsFull(UART_QUEUE_T *me)
 {
-    return (me->count >= UART_QUEUE_SIZE) ? TRUE : FALSE;
+    return (me->count >= UART_QUEUE_SIZE);
 }
 
 /********
- * @ 输出: unsigned char: TRUE(0) 空, FALSE(1) 非空
+ * @ 输出: bool: true 空, false 非空
  * @ 说明: 判断队列是否为空
  ****/
-unsigned char UartQueue_IsEmpty(UART_QUEUE_T *me)
+bool UartQueue_IsEmpty(UART_QUEUE_T *me)
 {
-    return (0 == me->count) ? TRUE : FALSE;
+    return (0 == me->count);
 }
 
 /********
@@ -128,3 +128,4 @@ unsigned short UartQueue_Count(UART_QUEUE_T *me)
 }
 
 /* uart_queue usr end */
+

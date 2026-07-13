@@ -1,6 +1,6 @@
 Dependencies for Project 'ELA_StepMotor', Target 'ELA_StepMotor': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
-F (startup_stm32f103xe.s)(0x6A50540A)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xe.lst --xref -o ela_stepmotor\startup_stm32f103xe.o --depend ela_stepmotor\startup_stm32f103xe.d)
+F (startup_stm32f103xe.s)(0x6A546023)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xe.lst --xref -o ela_stepmotor\startup_stm32f103xe.o --depend ela_stepmotor\startup_stm32f103xe.d)
 F (../Core/Src/main.c)(0x6A505409)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\main.o --omf_browse ela_stepmotor\main.crf --depend ela_stepmotor\main.d)
 I (../Core/Inc/main.h)(0x6A48A0E3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A0ECD0E)
@@ -245,7 +245,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
-F (../Core/Src/usart.c)(0x6A505409)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\usart.o --omf_browse ela_stepmotor\usart.crf --depend ela_stepmotor\usart.d)
+F (../Core/Src/usart.c)(0x6A546022)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\usart.o --omf_browse ela_stepmotor\usart.crf --depend ela_stepmotor\usart.d)
 I (../Core/Inc/usart.h)(0x6A47795B)
 I (../Core/Inc/main.h)(0x6A48A0E3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A0ECD0E)
@@ -279,7 +279,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
-F (../Core/Src/stm32f1xx_it.c)(0x6A5056A1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\stm32f1xx_it.o --omf_browse ela_stepmotor\stm32f1xx_it.crf --depend ela_stepmotor\stm32f1xx_it.d)
+F (../Core/Src/stm32f1xx_it.c)(0x6A547ED2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\stm32f1xx_it.o --omf_browse ela_stepmotor\stm32f1xx_it.crf --depend ela_stepmotor\stm32f1xx_it.d)
 I (../Core/Inc/main.h)(0x6A48A0E3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A0ECD0E)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A475AF2)
@@ -313,6 +313,15 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
 I (../Core/Inc/stm32f1xx_it.h)(0x6A505409)
+I (../ELA_LIB/ela_uart.h)(0x6A54882E)
+I (../ELA_LIB/elaco_main.h)(0x6A50591F)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../ELA_LIB/ela_can_queue.h)(0x6A5058DE)
+I (../ELA_LIB/ela_uart_queue.h)(0x6A547C67)
+I (../Core/Inc/usart.h)(0x6A47795B)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
 F (../Core/Src/stm32f1xx_hal_msp.c)(0x6A475AF1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\stm32f1xx_hal_msp.o --omf_browse ela_stepmotor\stm32f1xx_hal_msp.crf --depend ela_stepmotor\stm32f1xx_hal_msp.d)
 I (../Core/Inc/main.h)(0x6A48A0E3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A0ECD0E)
@@ -954,12 +963,15 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
-F (..\ELA_LIB\elaco_main.c)(0x6A5056A1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\elaco_main.o --omf_browse ela_stepmotor\elaco_main.crf --depend ela_stepmotor\elaco_main.d)
-I (..\ELA_LIB\elaco_main.h)(0x6A50531C)
+F (..\ELA_LIB\elaco_main.c)(0x6A547F08)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\elaco_main.o --omf_browse ela_stepmotor\elaco_main.crf --depend ela_stepmotor\elaco_main.d)
+I (..\ELA_LIB\elaco_main.h)(0x6A50591F)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
-I (..\ELA_LIB\ela_uart.h)(0x6A505466)
+I (..\ELA_LIB\ela_uart.h)(0x6A54882E)
+I (..\ELA_LIB\ela_uart_queue.h)(0x6A547C67)
+I (../Core/Inc/usart.h)(0x6A47795B)
+I (../Core/Inc/main.h)(0x6A48A0E3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A0ECD0E)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A475AF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A0ECD0E)
@@ -991,8 +1003,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
-I (../Core/Inc/main.h)(0x6A48A0E3)
-I (../Core/Inc/usart.h)(0x6A47795B)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
+I (..\ELA_LIB\ela_can_queue.h)(0x6A5058DE)
 I (../FreeModbus/modbus/mb.h)(0x5B9AC2A6)
 I (../FreeModbus/modbus/port.h)(0x5B9AC2A6)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E3CC2)
@@ -1000,7 +1012,7 @@ I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\inttypes.h)(0x5E8E3CC2)
 I (../FreeModbus/modbus/mbport.h)(0x5B9AC2A6)
 I (../FreeModbus/modbus/mbproto.h)(0x5B9AC2A6)
 I (../ModTest/test_mt6816.h)(0x6A504EF4)
-F (..\ELA_LIB\elaco_main.h)(0x6A50531C)()
+F (..\ELA_LIB\elaco_main.h)(0x6A50591F)()
 F (..\ELA_LIB\ela_mt6816.c)(0x6A504D21)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\ela_mt6816.o --omf_browse ela_stepmotor\ela_mt6816.crf --depend ela_stepmotor\ela_mt6816.d)
 I (..\ELA_LIB\ela_mt6816.h)(0x6A504D85)
 I (../Core/Inc/main.h)(0x6A48A0E3)
@@ -1037,12 +1049,14 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
 I (../Core/Inc/spi.h)(0x6A475AF1)
-F (..\ELA_LIB\ela_uart.c)(0x6A50546D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\ela_uart.o --omf_browse ela_stepmotor\ela_uart.crf --depend ela_stepmotor\ela_uart.d)
-I (..\ELA_LIB\ela_uart.h)(0x6A505466)
-I (..\ELA_LIB\elaco_main.h)(0x6A50531C)
+F (..\ELA_LIB\ela_uart.c)(0x6A547F05)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\ela_uart.o --omf_browse ela_stepmotor\ela_uart.crf --depend ela_stepmotor\ela_uart.d)
+I (..\ELA_LIB\ela_uart.h)(0x6A54882E)
+I (..\ELA_LIB\elaco_main.h)(0x6A50591F)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (..\ELA_LIB\ela_can_queue.h)(0x6A5058DE)
+I (..\ELA_LIB\ela_uart_queue.h)(0x6A547C67)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6A0ECD0E)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A475AF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6A0ECD0E)
@@ -1077,8 +1091,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
 I (../Core/Inc/main.h)(0x6A48A0E3)
 I (../Core/Inc/usart.h)(0x6A47795B)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
-F (..\ELA_LIB\ela_queue.c)(0x6A462B18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\ela_queue.o --omf_browse ela_stepmotor\ela_queue.crf --depend ela_stepmotor\ela_queue.d)
-I (..\ELA_LIB\ela_queue.h)(0x6A4C96A5)
+F (..\ELA_LIB\ela_can_queue.c)(0x6A5459ED)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\ela_can_queue.o --omf_browse ela_stepmotor\ela_can_queue.crf --depend ela_stepmotor\ela_can_queue.d)
+I (..\ELA_LIB\ela_can_queue.h)(0x6A5058DE)
+F (..\ELA_LIB\ela_uart_queue.c)(0x6A547CCE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\ela_uart_queue.o --omf_browse ela_stepmotor\ela_uart_queue.crf --depend ela_stepmotor\ela_uart_queue.d)
+I (..\ELA_LIB\ela_uart_queue.h)(0x6A547C67)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
 F (..\FreeModbus\modbus\mb.c)(0x5B9AC2A6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\mb.o --omf_browse ela_stepmotor\mb.crf --depend ela_stepmotor\mb.d)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
@@ -1307,7 +1324,7 @@ I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)
 I (..\FreeModbus\modbus\mb.h)(0x5B9AC2A6)
 I (..\FreeModbus\modbus\mbport.h)(0x5B9AC2A6)
 I (..\FreeModbus\modbus\mbproto.h)(0x5B9AC2A6)
-F (..\ModTest\test_mt6816.c)(0x6A5055AA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\test_mt6816.o --omf_browse ela_stepmotor\test_mt6816.crf --depend ela_stepmotor\test_mt6816.d)
+F (..\ModTest\test_mt6816.c)(0x6A545947)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../ELA_LIB -I ../FreeModbus/modbus -I ../ModTest-I.\RTE\_ELA_StepMotor-ID:\keil5\ARM\CMSIS\6.3.0\CMSIS\Core\Include-ID:\keil5\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o ela_stepmotor\test_mt6816.o --omf_browse ela_stepmotor\test_mt6816.crf --depend ela_stepmotor\test_mt6816.d)
 I (..\ModTest\test_mt6816.h)(0x6A504EF4)
 I (../ELA_LIB/ela_mt6816.h)(0x6A504D85)
 I (../Core/Inc/main.h)(0x6A48A0E3)
@@ -1343,8 +1360,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6A0ECD0E)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6A0ECD0E)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E3CC2)
-I (../ELA_LIB/ela_uart.h)(0x6A505466)
-I (../ELA_LIB/elaco_main.h)(0x6A50531C)
+I (../ELA_LIB/ela_uart.h)(0x6A54882E)
+I (../ELA_LIB/elaco_main.h)(0x6A50591F)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E3CC2)
 I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E3CC2)
+I (../ELA_LIB/ela_can_queue.h)(0x6A5058DE)
+I (../ELA_LIB/ela_uart_queue.h)(0x6A547C67)
 I (../Core/Inc/usart.h)(0x6A47795B)
+I (D:\keil5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E3CC2)

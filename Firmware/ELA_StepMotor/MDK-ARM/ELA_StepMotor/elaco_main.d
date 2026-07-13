@@ -5,6 +5,9 @@ ela_stepmotor\elaco_main.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stri
 ela_stepmotor\elaco_main.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
 ela_stepmotor\elaco_main.o: ..\ELA_LIB\ela_uart.h
 ela_stepmotor\elaco_main.o: ..\ELA_LIB\elaco_main.h
+ela_stepmotor\elaco_main.o: ..\ELA_LIB\ela_uart_queue.h
+ela_stepmotor\elaco_main.o: ../Core/Inc/usart.h
+ela_stepmotor\elaco_main.o: ../Core/Inc/main.h
 ela_stepmotor\elaco_main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 ela_stepmotor\elaco_main.o: ../Core/Inc/stm32f1xx_hal_conf.h
 ela_stepmotor\elaco_main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
@@ -37,8 +40,8 @@ ela_stepmotor\elaco_main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sp
 ela_stepmotor\elaco_main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 ela_stepmotor\elaco_main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 ela_stepmotor\elaco_main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
-ela_stepmotor\elaco_main.o: ../Core/Inc/main.h
-ela_stepmotor\elaco_main.o: ../Core/Inc/usart.h
+ela_stepmotor\elaco_main.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
+ela_stepmotor\elaco_main.o: ..\ELA_LIB\ela_can_queue.h
 ela_stepmotor\elaco_main.o: ../FreeModbus/modbus/mb.h
 ela_stepmotor\elaco_main.o: ../FreeModbus/modbus/port.h
 ela_stepmotor\elaco_main.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\assert.h

@@ -5,6 +5,8 @@ ela_stepmotor\ela_uart.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdboo
 ela_stepmotor\ela_uart.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
 ela_stepmotor\ela_uart.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
 ela_stepmotor\ela_uart.o: ..\ELA_LIB\ela_uart.h
+ela_stepmotor\ela_uart.o: ..\ELA_LIB\ela_can_queue.h
+ela_stepmotor\ela_uart.o: ..\ELA_LIB\ela_uart_queue.h
 ela_stepmotor\ela_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 ela_stepmotor\ela_uart.o: ../Core/Inc/stm32f1xx_hal_conf.h
 ela_stepmotor\ela_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h

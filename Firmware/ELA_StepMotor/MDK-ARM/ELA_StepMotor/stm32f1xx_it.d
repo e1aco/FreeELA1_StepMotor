@@ -33,3 +33,13 @@ ela_stepmotor\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_
 ela_stepmotor\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 ela_stepmotor\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 ela_stepmotor\stm32f1xx_it.o: ../Core/Inc/stm32f1xx_it.h
+ela_stepmotor\stm32f1xx_it.o: ../ELA_LIB/ela_uart.h
+ela_stepmotor\stm32f1xx_it.o: ../ELA_LIB/elaco_main.h
+ela_stepmotor\stm32f1xx_it.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+ela_stepmotor\stm32f1xx_it.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+ela_stepmotor\stm32f1xx_it.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+ela_stepmotor\stm32f1xx_it.o: ../ELA_LIB/ela_uart.h
+ela_stepmotor\stm32f1xx_it.o: ../ELA_LIB/ela_can_queue.h
+ela_stepmotor\stm32f1xx_it.o: ../ELA_LIB/ela_uart_queue.h
+ela_stepmotor\stm32f1xx_it.o: ../Core/Inc/usart.h
+ela_stepmotor\stm32f1xx_it.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h

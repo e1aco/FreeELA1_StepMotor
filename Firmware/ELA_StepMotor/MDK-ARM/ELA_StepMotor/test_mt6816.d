@@ -40,4 +40,7 @@ ela_stepmotor\test_mt6816.o: ../ELA_LIB/elaco_main.h
 ela_stepmotor\test_mt6816.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
 ela_stepmotor\test_mt6816.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
 ela_stepmotor\test_mt6816.o: ../ELA_LIB/ela_uart.h
+ela_stepmotor\test_mt6816.o: ../ELA_LIB/ela_can_queue.h
+ela_stepmotor\test_mt6816.o: ../ELA_LIB/ela_uart_queue.h
 ela_stepmotor\test_mt6816.o: ../Core/Inc/usart.h
+ela_stepmotor\test_mt6816.o: D:\keil5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h

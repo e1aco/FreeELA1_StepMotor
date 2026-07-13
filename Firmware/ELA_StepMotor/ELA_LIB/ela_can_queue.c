@@ -5,14 +5,12 @@ unsigned char g_all_can_count = 0;
 
 /* queue usr start */
 
-/****
- * @ 原型: unsigned char Queue_Insert(QUEUE_T *me,
- *                                    unsigned char *value)
+/********
  * @ 输入: QUEUE_T *me: 队列结构体指针;
  *        unsigned char *value: 待插入的数据指针
  * @ 输出: unsigned char: 成功返回 TRUE(0)，队列满返回 FALSE(1)
  * @ 说明: 将一个命令数据插入到队列尾部，支持循环队列模式
- ********/
+ ****/
 unsigned char Queue_Insert(QUEUE_T *me, unsigned char *value)
 {
     unsigned char i;
@@ -38,7 +36,6 @@ unsigned char Queue_Insert(QUEUE_T *me, unsigned char *value)
 }
 
 /****
- * @ 原型: unsigned char Queue_Delete(QUEUE_T *me)
  * @ 输入: QUEUE_T *me: 队列结构体指针
  * @ 输出: unsigned char: 成功返回 TRUE(0)，队列空返回 FALSE(1)
  * @ 说明: 从队列头部删除一个命令数据
@@ -64,7 +61,6 @@ unsigned char Queue_Delete(QUEUE_T *me)
 }
 
 /****
- * @ 原型: void *Queue_First(QUEUE_T *me)
  * @ 输入: QUEUE_T *me: 队列结构体指针
  * @ 输出: void *: 返回队列头部元素地址，队列空返回 NULL1(0x00)
  * @ 说明: 获取队列头部第一个命令数据的地址，
@@ -83,7 +79,6 @@ void *Queue_First(QUEUE_T *me)
 }
 
 /****
- * @ 原型: unsigned char Queue_IsFull(QUEUE_T *me)
  * @ 输入: QUEUE_T *me: 队列结构体指针
  * @ 输出: unsigned char: 队列满返回 TRUE(0)，未满返回 FALSE(1)
  * @ 说明: 判断队列是否已满，
@@ -95,7 +90,6 @@ unsigned char Queue_IsFull(QUEUE_T *me)
 }
 
 /****
- * @ 原型: unsigned char Queue_IsEmpty(QUEUE_T *me)
  * @ 输入: QUEUE_T *me: 队列结构体指针
  * @ 输出: unsigned char: 队列空返回 TRUE(0)，非空返回 FALSE(1)
  * @ 说明: 判断队列是否为空，front 为 -1 时表示队列空
@@ -106,7 +100,6 @@ unsigned char Queue_IsEmpty(QUEUE_T *me)
 }
 
 /****
- * @ 原型: void Queue_Init(QUEUE_T *me)
  * @ 输入: QUEUE_T *me: 队列结构体指针
  * @ 输出: void
  * @ 说明: 初始化队列，将 front 和 rear 都设置为 -1
